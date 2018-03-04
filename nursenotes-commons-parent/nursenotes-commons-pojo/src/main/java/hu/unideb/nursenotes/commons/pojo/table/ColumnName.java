@@ -34,9 +34,9 @@ public class ColumnName {
         public static final String COLUMN_NAME_ACTIVITY_TIMESPENT = "TimeSpent";
 
         /**
-         * Kind of activity column.
+         * Type of activity column.
          */
-        public static final String COLUMN_NAME_ACTIVITY_KIND = "Kind";
+        public static final String COLUMN_NAME_ACTIVITY_TYPE = "Type";
 
         /**
          * Clientname column.
@@ -47,6 +47,11 @@ public class ColumnName {
          * Price of activity column.
          */
         public static final String COLUMN_NAME_ACTIVITY_WAGE = "Wage";
+
+        /**
+         * Cost of activity column.
+         */
+        public static final String COLUMN_NAME_ACTIVITY_COST = "Cost";
     }
 
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
@@ -56,7 +61,7 @@ public class ColumnName {
          * Name column.
          */
 
-        public static final String COULMN_NAME_CLIENTDATA_NAME = "Name";
+        public static final String COLUMN_NAME_CLIENTDATA_NAME = "Name";
 
         /**
          * Age column.
@@ -67,5 +72,10 @@ public class ColumnName {
          * Signature column.
          */
         public static final String COLUMN_NAME_CLIENTDATA_SIGNATURE = "Signature";
+
+        /**
+         * Phone number column.
+         */
+        public static final String COLUMN_NAME_CLIENTDATA_PHONE_NUMBER = "PhoneNumber";
     }
 }
