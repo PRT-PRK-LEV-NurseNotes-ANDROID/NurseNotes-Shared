@@ -12,12 +12,12 @@ public class ColumnName {
         /**
          * User column.
          */
-        public static final String COLUMN_NAME_USER = "Username";
+        public static final String COLUMN_NAME_USER = "username";
 
         /**
          * Password column.
          */
-        public static final String COLUMN_NAME_PASSWORD = "Password";
+        public static final String COLUMN_NAME_PASSWORD = "password";
     }
 
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
@@ -26,56 +26,56 @@ public class ColumnName {
         /**
          * Time spent on traveling.
          */
-        public static final String COLUMN_NAME_ACTIVITY_TRAVELTIME = "TravelTime";
+        public static final String COLUMN_NAME_ACTIVITY_TRAVELTIME = "travelTime";
 
         /**
          * Time spent on the activity.
          */
-        public static final String COLUMN_NAME_ACTIVITY_TIMESPENT = "TimeSpent";
+        public static final String COLUMN_NAME_ACTIVITY_TIMESPENT = "timeSpent";
 
         /**
          * Type of activity column.
          */
-        public static final String COLUMN_NAME_ACTIVITY_TYPE = "Type";
+        public static final String COLUMN_NAME_ACTIVITY_TYPE = "type";
 
         /**
-         * Clientname column.
+         * Date of activity column.
          */
-        public static final String COLUMN_NAME_ACTIVITY_CLIENTNAME = "ClientName";
+        public static final String COLUMN_NAME_ACTIVITY_DATE = "date";
 
-        /**
-         * Price of activity column.
-         */
-        public static final String COLUMN_NAME_ACTIVITY_WAGE = "Wage";
-
-        /**
-         * Cost of activity column.
-         */
-        public static final String COLUMN_NAME_ACTIVITY_COST = "Cost";
     }
 
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
     public static final class ClientdataColumName {
 
         /**
-         * Name column.
+         * Clientfirstname column.
          */
+        public static final String COLUMN_NAME_CLIENTDATA_CLIENTFIRSTNAME = "clientFirstName";
 
-        public static final String COLUMN_NAME_CLIENTDATA_NAME = "Name";
+        /**
+         * Clientlastname column.
+         */
+        public static final String COLUMN_NAME_CLIENTDATA_CLIENTLASTNAME = "clientLastName";
 
         /**
          * Age column.
          */
-        public static final String COLUMN_NAME_CLIENTDATA_AGE = "Age";
+        public static final String COLUMN_NAME_CLIENTDATA_AGE = "age";
 
         /**
          * Signature column.
          */
-        public static final String COLUMN_NAME_CLIENTDATA_SIGNATURE = "Signature";
+        public static final String COLUMN_NAME_CLIENTDATA_SIGNATURE = "signature";
 
         /**
          * Phone number column.
          */
-        public static final String COLUMN_NAME_CLIENTDATA_PHONE_NUMBER = "PhoneNumber";
+        public static final String COLUMN_NAME_CLIENTDATA_PHONE_NUMBER = "phoneNumber";
+
+        /**
+         * Price of activity column.
+         */
+        public static final String COLUMN_NAME_CLIENTDATA_WAGE = "wage";
     }
 }

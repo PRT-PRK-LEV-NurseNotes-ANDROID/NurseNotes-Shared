@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hu.unideb</groupId>
-    <artifactId>nursenotes-shared-parent</artifactId>
+    <artifactId>nursenotes-commons-parent</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <modules>

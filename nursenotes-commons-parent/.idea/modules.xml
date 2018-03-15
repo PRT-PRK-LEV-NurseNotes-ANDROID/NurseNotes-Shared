@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/nursenotes-commons-parent.iml" filepath="$PROJECT_DIR$/nursenotes-commons-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/nursenotes-commons-path/nursenotes-commons-path.iml" filepath="$PROJECT_DIR$/nursenotes-commons-path/nursenotes-commons-path.iml" />
       <module fileurl="file://$PROJECT_DIR$/nursenotes-commons-pojo/nursenotes-commons-pojo.iml" filepath="$PROJECT_DIR$/nursenotes-commons-pojo/nursenotes-commons-pojo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nursenotes-shared-parent.iml" filepath="$PROJECT_DIR$/nursenotes-shared-parent.iml" />
     </modules>
   </component>
 </project>

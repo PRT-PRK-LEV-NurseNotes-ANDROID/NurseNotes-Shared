@@ -9,15 +9,15 @@ public class TableName {
     /**
      * Login table.
      */
-    public static final String TABLE_NAME_LOGIN = "Login";
+    public static final String TABLE_NAME_LOGIN = "login";
 
     /**
      * Clients table
      */
-    public static final String TABLE_NAME_CLIENTS = "Clients";
+    public static final String TABLE_NAME_CLIENT = "client";
 
     /**
      * Activities table
      */
-    public static final String TABLE_NAME_ACTIVITIES = "Activities";
+    public static final String TABLE_NAME_ACTIVITY = "activity";
 }
