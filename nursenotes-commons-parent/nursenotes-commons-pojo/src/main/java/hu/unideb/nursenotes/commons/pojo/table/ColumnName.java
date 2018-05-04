@@ -12,12 +12,18 @@ public class ColumnName {
         /**
          * User column.
          */
-        public static final String COLUMN_NAME_USER = "username";
+        public static final String COLUMN_NAME_USER = "userName";
 
         /**
          * Password column.
          */
         public static final String COLUMN_NAME_PASSWORD = "password";
+
+        public static final String COLUMN_NAME_FIRSTNAME = "firstName";
+
+        public static final String COLUMN_NAME_LASTNAME = "lastName";
+
+        public static final String COLUMN_NAME_EMAIL = "email";
     }
 
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
@@ -51,12 +57,12 @@ public class ColumnName {
         /**
          * Clientfirstname column.
          */
-        public static final String COLUMN_NAME_CLIENTDATA_CLIENTFIRSTNAME = "clientFirstName";
+        public static final String COLUMN_NAME_CLIENTDATA_CLIENTFIRSTNAME = "firstName";
 
         /**
          * Clientlastname column.
          */
-        public static final String COLUMN_NAME_CLIENTDATA_CLIENTLASTNAME = "clientLastName";
+        public static final String COLUMN_NAME_CLIENTDATA_CLIENTLASTNAME = "lastName";
 
         /**
          * Age column.
