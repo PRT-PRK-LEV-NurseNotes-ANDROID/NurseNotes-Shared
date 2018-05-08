@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c43f653-5516-41c1-9a11-f3cd8d404b21" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exceptions/ViolationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exceptions/ViolationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ClientRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ClientRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/RegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/RegistrationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/ColumnName.java" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/ColumnName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/Violation.java" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/Violation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/ViolationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/ViolationResponse.java" afterDir="false" />
-    </list>
+    <list default="true" id="1c43f653-5516-41c1-9a11-f3cd8d404b21" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/nursenotes-commons-path/target/" />

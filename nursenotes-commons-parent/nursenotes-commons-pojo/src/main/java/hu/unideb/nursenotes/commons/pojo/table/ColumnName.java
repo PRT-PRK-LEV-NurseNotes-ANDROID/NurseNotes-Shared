@@ -10,19 +10,28 @@ public class ColumnName {
     public static final class LoginColumName {
 
         /**
-         * User column.
+         * Username of the employee column.
          */
         public static final String COLUMN_NAME_USER = "userName";
 
         /**
-         * Password column.
+         * Password of the employee column.
          */
         public static final String COLUMN_NAME_PASSWORD = "password";
 
+        /**
+         * First name of the employee column.
+         */
         public static final String COLUMN_NAME_FIRSTNAME = "firstName";
 
+        /**
+         * Last name of the employee column.
+         */
         public static final String COLUMN_NAME_LASTNAME = "lastName";
 
+        /**
+         * E-mail address of the employee column.
+         */
         public static final String COLUMN_NAME_EMAIL = "email";
     }
 
@@ -30,12 +39,12 @@ public class ColumnName {
     public static final class AcitivityColumName {
 
         /**
-         * Time spent on traveling.
+         * Time spent on traveling column.
          */
         public static final String COLUMN_NAME_ACTIVITY_TRAVELTIME = "travelTime";
 
         /**
-         * Time spent on the activity.
+         * Time spent on the activity column.
          */
         public static final String COLUMN_NAME_ACTIVITY_TIMESPENT = "timeSpent";
 
@@ -55,32 +64,32 @@ public class ColumnName {
     public static final class ClientdataColumName {
 
         /**
-         * Clientfirstname column.
+         * Client first name column.
          */
         public static final String COLUMN_NAME_CLIENTDATA_CLIENTFIRSTNAME = "firstName";
 
         /**
-         * Clientlastname column.
+         * Client last name column.
          */
         public static final String COLUMN_NAME_CLIENTDATA_CLIENTLASTNAME = "lastName";
 
         /**
-         * Age column.
+         * Age of the Client column.
          */
         public static final String COLUMN_NAME_CLIENTDATA_AGE = "age";
 
         /**
-         * Signature column.
+         * Signature of the Client column.
          */
         public static final String COLUMN_NAME_CLIENTDATA_SIGNATURE = "signature";
 
         /**
-         * Phone number column.
+         * Phone number of the Client column.
          */
         public static final String COLUMN_NAME_CLIENTDATA_PHONE_NUMBER = "phoneNumber";
 
         /**
-         * Address column.
+         * Address of the Client column.
          */
         public static final String COLUMN_NAME_CLIENTDATA_ADDRESS = "address";
 
