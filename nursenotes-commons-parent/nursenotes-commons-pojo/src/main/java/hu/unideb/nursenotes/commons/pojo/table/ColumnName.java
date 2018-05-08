@@ -80,6 +80,11 @@ public class ColumnName {
         public static final String COLUMN_NAME_CLIENTDATA_PHONE_NUMBER = "phoneNumber";
 
         /**
+         * Address column.
+         */
+        public static final String COLUMN_NAME_CLIENTDATA_ADDRESS = "address";
+
+        /**
          * Price of activity column.
          */
         public static final String COLUMN_NAME_CLIENTDATA_WAGE = "wage";

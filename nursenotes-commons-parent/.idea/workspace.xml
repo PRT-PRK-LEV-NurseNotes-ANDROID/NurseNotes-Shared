@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c43f653-5516-41c1-9a11-f3cd8d404b21" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/activity/ActivityPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/login/LoginPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/register/RegisterPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exceptions/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exceptions/ViolationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exclusion/FieldExclusion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ActivityRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ClientRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/RegistrationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/Violation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/ViolationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/nursenotes-commons-pojo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/nursenotes-commons-pojo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exceptions/ViolationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exceptions/ViolationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ClientRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ClientRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/RegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/RegistrationRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/ColumnName.java" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/ColumnName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/Violation.java" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/Violation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/ViolationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/ViolationResponse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +40,8 @@
       <file leaf-file-name="ColumnName.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/ColumnName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+            <state relative-caret-position="1428">
+              <caret line="84" column="76" selection-start-line="84" selection-start-column="76" selection-end-line="84" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,11 +49,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterPath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/register/RegisterPath.java">
+      <file leaf-file-name="TableName.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/TableName.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+            <state relative-caret-position="340">
+              <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Violation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/Violation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViolationResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/ViolationResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -87,20 +95,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientPath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/client/ClientPath.java">
+      <file leaf-file-name="ViolationException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exceptions/ViolationException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPath.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/login/LoginPath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+            <state relative-caret-position="238">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,18 +112,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/RegistrationRequest.java">
+      <file leaf-file-name="ActivityRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ActivityRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +131,8 @@
       <file leaf-file-name="ClientRequest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ClientRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="357">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,23 +140,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivityRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ActivityRequest.java">
+      <file leaf-file-name="RegistrationRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/RegistrationRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="292">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActivityPath.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/activity/ActivityPath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -182,11 +172,6 @@
         <option value="$PROJECT_DIR$/nursenotes-commons-pojo/pom.xml" />
         <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/TableName.java" />
         <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exceptions/BaseException.java" />
-        <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/Violation.java" />
-        <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/ViolationResponse.java" />
-        <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exceptions/ViolationException.java" />
-        <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/ColumnName.java" />
-        <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/RegistrationRequest.java" />
         <option value="$PROJECT_DIR$/nursenotes-commons-path/src/main/java/register/RegisterPath.java" />
         <option value="$PROJECT_DIR$/nursenotes-commons-path/src/main/java/client/ClientPath.java" />
         <option value="$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/register/RegisterPath.java" />
@@ -194,9 +179,14 @@
         <option value="$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/login/LoginPath.java" />
         <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exclusion.java" />
         <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exclusion/FieldExclusion.java" />
-        <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ClientRequest.java" />
         <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ActivityRequest.java" />
         <option value="$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/activity/ActivityPath.java" />
+        <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/ColumnName.java" />
+        <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exceptions/ViolationException.java" />
+        <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ClientRequest.java" />
+        <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/RegistrationRequest.java" />
+        <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/ViolationResponse.java" />
+        <option value="$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/Violation.java" />
       </list>
     </option>
   </component>
@@ -248,7 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -435,8 +425,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -568,11 +558,15 @@
       <workItem from="1525077148122" duration="2904000" />
       <workItem from="1525159269558" duration="7297000" />
       <workItem from="1525463211745" duration="622000" />
+      <workItem from="1525545433115" duration="607000" />
+      <workItem from="1525590521909" duration="681000" />
+      <workItem from="1525674673033" duration="1893000" />
+      <workItem from="1525755068576" duration="3486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35295000" />
+    <option name="totallyTimeSpent" value="41962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -587,12 +581,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32290503" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15191898" />
       <window_info anchor="right" id="Database" order="3" weight="0.32932165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24945295" />
@@ -615,28 +609,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/ColumnName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/TableName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,9 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,9 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,9 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,57 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exceptions/ViolationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/TableName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/Violation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-          <folding>
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/ViolationResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -954,20 +877,76 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exclusion.java" />
+    <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/client/ClientPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/register/RegisterPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/login/LoginPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16796">
+          <caret line="994" column="20" selection-start-line="994" selection-start-column="20" selection-end-line="994" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/activity/ActivityPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exclusion/FieldExclusion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/ColumnName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="76" selection-start-line="84" selection-start-column="76" selection-end-line="84" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/TableName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="62" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/ViolationResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/RegistrationRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="292">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -976,8 +955,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ClientRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="357">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -986,32 +965,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/request/ActivityRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="374">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/client/ClientPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/activity/ActivityPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/table/ColumnName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1035,17 +990,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/register/RegisterPath.java">
+    <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/exceptions/ViolationException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+        <state relative-caret-position="238">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nursenotes-commons-path/src/main/java/path/login/LoginPath.java">
+    <entry file="file://$PROJECT_DIR$/nursenotes-commons-pojo/src/main/java/hu/unideb/nursenotes/commons/pojo/validator/Violation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        <state relative-caret-position="348">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>

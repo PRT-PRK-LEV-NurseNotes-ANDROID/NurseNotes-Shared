@@ -19,6 +19,8 @@ public class ClientRequest implements Serializable {
 
     private String phoneNumber;
 
+    private String address;
+
     private int age;
 
     private int wage;

@@ -8,7 +8,6 @@ public class ViolationException extends BaseException {
 
     private List<Violation> errors;
 
-
     public ViolationException(List<Violation> violationList) {
         this.errors = violationList;
     }
@@ -20,5 +19,4 @@ public class ViolationException extends BaseException {
     public String toString() {
         return "ViolationException{errors=" + this.errors.toString() + '}';
     }
-
 }

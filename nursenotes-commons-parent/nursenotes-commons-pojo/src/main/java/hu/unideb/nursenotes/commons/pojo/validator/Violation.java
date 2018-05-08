@@ -10,12 +10,10 @@ public class Violation implements Serializable {
 
     public Violation() {
     }
-
     public Violation(String field, String validationMessage) {
         this.field = field;
         this.validationMessage = validationMessage;
     }
-
     public String getField() {
         return field;
     }
@@ -38,7 +36,7 @@ public class Violation implements Serializable {
 
     @Override
     public String toString() {
-        StringBuilder sb=new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         sb.append("field:").append(field).append("->").append(validationMessage);
         return sb.toString();
     }
@@ -49,7 +47,7 @@ public class Violation implements Serializable {
         private ViolationBuilder() {
         }
 
-        public static ViolationBuilder aViolation() {
+        public static ViolationBuilder Violation() {
             return new ViolationBuilder();
         }
 

@@ -33,10 +33,8 @@ public class ViolationResponse implements Serializable {
             violationResponse.setErrors(violationList);
             return this;
         }
-
         public ViolationResponse build() {
             return violationResponse;
         }
     }
-
 }
