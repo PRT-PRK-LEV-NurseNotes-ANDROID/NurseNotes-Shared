@@ -47,7 +47,7 @@ public class Violation implements Serializable {
         private ViolationBuilder() {
         }
 
-        public static ViolationBuilder Violation() {
+        public static ViolationBuilder aViolation() {
             return new ViolationBuilder();
         }
 

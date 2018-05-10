@@ -16,7 +16,14 @@ public class ViolationException extends BaseException {
         return this.errors;
     }
 
+//    public String toString() {
+//        return "ViolationException{errors=" + this.errors.toString() + '}';
+//    }
+
+    @Override
     public String toString() {
-        return "ViolationException{errors=" + this.errors.toString() + '}';
+        return "ViolationException{" +
+                "errors=" + this.errors +
+                '}';
     }
 }
