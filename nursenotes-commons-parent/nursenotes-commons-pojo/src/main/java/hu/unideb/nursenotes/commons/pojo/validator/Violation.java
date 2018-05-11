@@ -1,35 +1,77 @@
 package hu.unideb.nursenotes.commons.pojo.validator;
 
+import lombok.Data;
 import java.io.Serializable;
 
+/**
+ * Class of Violations.
+ */
+@Data
 public class Violation implements Serializable {
 
-    private String field;
+    /**
+     * Violation filed.
+     */
+    private String validationField;
 
+    /**
+     * Validation message.
+     */
     private String validationMessage;
 
+    /**
+     * Empty constructor.
+     */
     public Violation() {
     }
-    public Violation(String field, String validationMessage) {
-        this.field = field;
+
+    /**
+     * All arguments constructor.
+     *
+     * @param validationField validation field.
+     * @param validationMessage message field.
+     */
+    public Violation(final String validationField, final String validationMessage) {
+        this.validationField = validationField;
         this.validationMessage = validationMessage;
     }
-    public String getField() {
-        return field;
+
+    /**
+     *
+     * @return field.
+     */
+    private String getvalidationField() {
+        return validationField;
     }
 
-    public void setField(String field) {
-        this.field = field;
+    /**
+     *
+     * @param validationField sets field.
+     */
+    private void setField(String validationField) {
+        this.validationField = validationField;
     }
 
+    /**
+     *
+     * @return validation message.
+     */
     public String getValidationMessage() {
         return validationMessage;
     }
 
+    /**
+     *
+     * @param validationMessage sets validation message.
+     */
     public void setValidationMessage(String validationMessage) {
         this.validationMessage = validationMessage;
     }
 
+    /**
+     * Violation builder
+     * @return violation.
+     */
     public static ViolationBuilder builder() {
         return new ViolationBuilder();
     }
@@ -37,36 +79,60 @@ public class Violation implements Serializable {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("field:").append(field).append("->").append(validationMessage);
+        sb.append("field:").append(validationField).append("->").append(validationMessage);
         return sb.toString();
     }
+
+    /**
+     * Violation class builder.
+     */
     public static final class ViolationBuilder {
-        private String field;
+        private String validationField;
         private String validationMessage;
 
+        /**
+         * Empty violation builder.
+         */
         private ViolationBuilder() {
         }
 
+        /**
+         *
+         * @return Violation builder.
+         */
         public static ViolationBuilder aViolation() {
             return new ViolationBuilder();
         }
 
-        public ViolationBuilder field(String field) {
-            this.field = field;
+        /**
+         *
+         * @param validationField violation field.
+         * @return violtion.
+         */
+        public ViolationBuilder validationField(String validationField) {
+            this.validationField = validationField;
             return this;
         }
 
+        /**
+         *
+         * @param validationMessage vaidation message.
+         * @return valdation message.
+         */
         public ViolationBuilder validationMessage(String validationMessage) {
             this.validationMessage = validationMessage;
             return this;
         }
 
+        /**
+         *
+         * @return violation message.
+         */
         public Violation build() {
             Violation violation = new Violation();
-            violation.setField(field);
+            violation.setField(validationField);
             violation.setValidationMessage(validationMessage);
             return violation;
         }
     }
-
 }

@@ -1,23 +1,30 @@
 package hu.unideb.nursenotes.commons.pojo.table;
 
 import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * Lombok for constructors.
+ */
+@Data
+@AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class TableName {
 
     /**
      * Login table.
      */
-    public static final String TABLE_NAME_LOGIN = "login";
+    private static final String TABLE_NAME_LOGIN = "login";
 
     /**
-     * Clients table
+     * Clients table.
      */
-    public static final String TABLE_NAME_CLIENT = "client";
+    private static final String TABLE_NAME_CLIENT = "client";
 
     /**
-     * Activities table
+     * Activities table.
      */
-    public static final String TABLE_NAME_ACTIVITY = "activity";
+    private static final String TABLE_NAME_ACTIVITY = "activity";
 }

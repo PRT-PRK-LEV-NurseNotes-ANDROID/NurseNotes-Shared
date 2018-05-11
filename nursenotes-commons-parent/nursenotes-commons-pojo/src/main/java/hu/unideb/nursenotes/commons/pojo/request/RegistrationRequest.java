@@ -7,23 +7,36 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
-
+/**
+ * Lombok for constructors.
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 @Builder
+/**
+ * Registration request class.
+ */
 public class RegistrationRequest implements Serializable {
 
+    /**
+     * Username of emloyee.
+     */
     private String username;
 
-  //  private String email;
-
+    /**
+     * Password of employee.
+     */
     private String password;
 
-   // private String passwordConfirm;
-
+    /**
+     * First name of employee.
+     */
     private String firstName;
 
+    /**
+     * Last name of employee.
+     */
     private String lastName;
 
 }

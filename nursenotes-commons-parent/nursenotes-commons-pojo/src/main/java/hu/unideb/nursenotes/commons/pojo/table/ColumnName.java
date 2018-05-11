@@ -3,9 +3,15 @@ package hu.unideb.nursenotes.commons.pojo.table;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
+/**
+ * Lombok for constructors.
+ */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ColumnName {
 
+    /**
+     * Lombok for constructors.
+     */
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
     public static final class LoginColumName {
 
@@ -35,13 +41,17 @@ public class ColumnName {
         public static final String COLUMN_NAME_EMAIL = "email";
     }
 
+    /**
+     * Lombok for constructors.
+     */
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
     public static final class AcitivityColumName {
 
         /**
          * Time spent on traveling column.
          */
-        public static final String COLUMN_NAME_ACTIVITY_TRAVELTIME = "travelTime";
+        public static final String
+                COLUMN_NAME_ACTIVITY_TRAVELTIME = "travelTime";
 
         /**
          * Time spent on the activity column.
@@ -60,18 +70,23 @@ public class ColumnName {
 
     }
 
+    /**
+     * Lombok for constructors.
+     */
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
     public static final class ClientdataColumName {
 
         /**
          * Client first name column.
          */
-        public static final String COLUMN_NAME_CLIENTDATA_CLIENTFIRSTNAME = "firstName";
+        public static final String
+                COLUMN_NAME_CLIENTDATA_CLIENTFIRSTNAME = "firstName";
 
         /**
          * Client last name column.
          */
-        public static final String COLUMN_NAME_CLIENTDATA_CLIENTLASTNAME = "lastName";
+        public static final String
+                COLUMN_NAME_CLIENTDATA_CLIENTLASTNAME = "lastName";
 
         /**
          * Age of the Client column.
@@ -81,12 +96,14 @@ public class ColumnName {
         /**
          * Signature of the Client column.
          */
-        public static final String COLUMN_NAME_CLIENTDATA_SIGNATURE = "signature";
+        public static final String
+                COLUMN_NAME_CLIENTDATA_SIGNATURE = "signature";
 
         /**
          * Phone number of the Client column.
          */
-        public static final String COLUMN_NAME_CLIENTDATA_PHONE_NUMBER = "phoneNumber";
+        public static final String
+                COLUMN_NAME_CLIENTDATA_PHONE_NUMBER = "phoneNumber";
 
         /**
          * Address of the Client column.
