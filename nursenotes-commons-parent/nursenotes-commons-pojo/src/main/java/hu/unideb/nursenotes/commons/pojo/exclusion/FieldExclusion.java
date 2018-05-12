@@ -6,19 +6,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * Lombok for constructors.
- */
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
-@AllArgsConstructor
-@Data
-/**
- * Class of filed exclusions.
+ * Class of field exclusions.
  */
 public final class FieldExclusion {
 
     /**
      * Password value of field exclusions.
      */
-    private static final String EXCLUDE_PASSWORD = "password";
+    public static final String EXCLUDE_PASSWORD = "password";
 
 }

@@ -6,25 +6,22 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * Lombok for constructors.
+ * Table names class.
  */
-@Data
-@AllArgsConstructor
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class TableName {
 
     /**
      * Login table.
      */
-    private static final String TABLE_NAME_LOGIN = "login";
+    public static final String TABLE_NAME_LOGIN = "login";
 
     /**
      * Clients table.
      */
-    private static final String TABLE_NAME_CLIENT = "client";
+    public static final String TABLE_NAME_CLIENT = "client";
 
     /**
      * Activities table.
      */
-    private static final String TABLE_NAME_ACTIVITY = "activity";
+    public static final String TABLE_NAME_ACTIVITY = "activity";
 }
