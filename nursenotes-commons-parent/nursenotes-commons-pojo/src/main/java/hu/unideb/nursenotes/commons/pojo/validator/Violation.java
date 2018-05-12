@@ -22,54 +22,55 @@ public class Violation implements Serializable {
     /**
      * Empty constructor.
      */
-    public Violation() {
+    private Violation() {
     }
 
     /**
      * All arguments constructor.
      *
-     * @param validationField validation field.
-     * @param validationMessage message field.
+     * @param valField validation field.
+     * @param valMessage message field.
      */
-    public Violation(final String validationField, final String validationMessage) {
-        this.validationField = validationField;
-        this.validationMessage = validationMessage;
+    public Violation(final String valField,
+                     final String valMessage) {
+        this.validationField = valField;
+        this.validationMessage = valMessage;
     }
 
     /**
      *
      * @return field.
      */
-    private String getvalidationField() {
+    private String getValField() {
         return validationField;
     }
 
     /**
      *
-     * @param validationField sets field.
+     * @param valField sets field.
      */
-    private void setField(String validationField) {
-        this.validationField = validationField;
+    private void setField(final String valField) {
+        this.validationField = valField;
     }
 
     /**
      *
      * @return validation message.
      */
-    public String getValidationMessage() {
+    private String getValidationMessage() {
         return validationMessage;
     }
 
     /**
      *
-     * @param validationMessage sets validation message.
+     * @param valMessage sets validation message.
      */
-    public void setValidationMessage(String validationMessage) {
-        this.validationMessage = validationMessage;
+    private void setValidationMessage(final String valMessage) {
+        this.validationMessage = valMessage;
     }
 
     /**
-     * Violation builder
+     * Violation builder.
      * @return violation.
      */
     public static ViolationBuilder builder() {
@@ -77,9 +78,10 @@ public class Violation implements Serializable {
     }
 
     @Override
-    public String toString() {
+    public final String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("field:").append(validationField).append("->").append(validationMessage);
+        sb.append("field:").append(validationField)
+                .append("->").append(validationMessage);
         return sb.toString();
     }
 
@@ -87,7 +89,13 @@ public class Violation implements Serializable {
      * Violation class builder.
      */
     public static final class ViolationBuilder {
-        private String validationField;
+        /**
+         * Validation field string.
+         */
+        private String vField;
+        /**
+         * Validation message string.
+         */
         private String validationMessage;
 
         /**
@@ -106,21 +114,23 @@ public class Violation implements Serializable {
 
         /**
          *
-         * @param validationField violation field.
+         * @param valField violation field.
          * @return violtion.
          */
-        public ViolationBuilder validationField(String validationField) {
-            this.validationField = validationField;
+        public ViolationBuilder vField(
+                final String valField) {
+            this.vField = valField;
             return this;
         }
 
         /**
          *
-         * @param validationMessage vaidation message.
+         * @param valMessage vaidation message.
          * @return valdation message.
          */
-        public ViolationBuilder validationMessage(String validationMessage) {
-            this.validationMessage = validationMessage;
+        public ViolationBuilder validationMessage(
+                final String valMessage) {
+            this.validationMessage = valMessage;
             return this;
         }
 
@@ -130,7 +140,7 @@ public class Violation implements Serializable {
          */
         public Violation build() {
             Violation violation = new Violation();
-            violation.setField(validationField);
+            violation.setField(vField);
             violation.setValidationMessage(validationMessage);
             return violation;
         }
