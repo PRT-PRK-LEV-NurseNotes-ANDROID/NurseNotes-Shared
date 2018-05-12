@@ -6,7 +6,6 @@ import java.io.Serializable;
 /**
  * Class of Violations.
  */
-@Data
 public class Violation implements Serializable {
 
     /**
