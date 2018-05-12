@@ -13,7 +13,7 @@ public class ColumnName {
      * Lombok for constructors.
      */
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
-    public static final class LoginColumName {
+    public static final class UserColumName {
 
         /**
          * Username of the employee column.

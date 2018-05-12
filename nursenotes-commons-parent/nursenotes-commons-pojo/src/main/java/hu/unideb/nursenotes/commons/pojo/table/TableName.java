@@ -11,9 +11,9 @@ import lombok.NoArgsConstructor;
 public class TableName {
 
     /**
-     * Login table.
+     * User table.
      */
-    public static final String TABLE_NAME_LOGIN = "login";
+    public static final String TABLE_NAME_USER = "user";
 
     /**
      * Clients table.
