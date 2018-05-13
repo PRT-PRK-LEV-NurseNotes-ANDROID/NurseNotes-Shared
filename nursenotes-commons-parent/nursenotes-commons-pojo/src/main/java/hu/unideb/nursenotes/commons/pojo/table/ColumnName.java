@@ -16,6 +16,11 @@ public class ColumnName {
     public static final class UserColumName {
 
         /**
+         * User ID.
+         */
+        public static final String COLUMN_NAME_ID = "userId";
+
+        /**
          * Username of the employee column.
          */
         public static final String COLUMN_NAME_USER = "userName";
@@ -48,6 +53,12 @@ public class ColumnName {
     public static final class AcitivityColumName {
 
         /**
+         * Activity ID.
+         */
+        public static final String
+                COLUMN_NAME_ACTIVITY_ID = "activityId";
+
+        /**
          * Time spent on traveling column.
          */
         public static final String
@@ -75,6 +86,12 @@ public class ColumnName {
      */
     @NoArgsConstructor(access = AccessLevel.PRIVATE)
     public static final class ClientdataColumName {
+
+        /**
+         * Client ID.
+         */
+        public static final String
+                COLUMN_NAME_CLIENTDATA_CLIENTID = "clientId";
 
         /**
          * Client first name column.
@@ -114,5 +131,12 @@ public class ColumnName {
          * Price of activity column.
          */
         public static final String COLUMN_NAME_CLIENTDATA_WAGE = "wage";
+    }
+
+    @NoArgsConstructor(access = AccessLevel.PRIVATE)
+    public static final class ReferencedColumName {
+
+        public static final String REFERENCED_COLUM_NAME_ID = "id";
+
     }
 }
