@@ -20,32 +20,37 @@ import java.io.Serializable;
 public class ClientRequest implements Serializable {
 
     /**
-     * First name of Client.
+     * First name of the Client.
      */
     private String firstName;
 
     /**
-     * Last name of Client.
+     * Last name of the Client.
      */
     private String lastName;
 
     /**
-     * Phone number of Client.
-     */
-    private String phoneNumber;
-
-    /**
-     * Address of Client.
-     */
-    private String address;
-
-    /**
-     * Age of Client.
+     * Age of the Client.
      */
     private int age;
 
     /**
-     * Wage of Client.
+     * Signature of the Client.
+     */
+    private String signature;
+
+    /**
+     * Phone number of the Client.
+     */
+    private String phoneNumber;
+
+    /**
+     * Address of the Client.
+     */
+    private String address;
+
+    /**
+     * Wage of the Client.
      */
     private int wage;
 

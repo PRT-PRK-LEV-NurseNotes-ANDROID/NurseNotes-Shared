@@ -6,37 +6,45 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 
 /**
- * Lombok for constructors.
+ * Registration request class.
  */
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
 @Builder
-/**
- * Registration request class.
- */
 public class RegistrationRequest implements Serializable {
 
     /**
-     * Username of emloyee.
+     * The username of the user.
      */
     private String username;
 
     /**
-     * Password of employee.
+     * The email of the user.
+     */
+    private String email;
+
+    /**
+     * The password of the user.
      */
     private String password;
 
     /**
-     * First name of employee.
+     * First name of the user.
      */
     private String firstName;
 
     /**
-     * Last name of employee.
+     * Last name of the user.
      */
     private String lastName;
+
+    /**
+     * User created date.
+     */
+    private LocalDate createdDate;
 
 }

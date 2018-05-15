@@ -1,10 +1,5 @@
 package hu.unideb.nursenotes.commons.pojo.table;
 
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 /**
  * Table names class.
  */

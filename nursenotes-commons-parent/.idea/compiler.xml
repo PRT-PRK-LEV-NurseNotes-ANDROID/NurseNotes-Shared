@@ -10,11 +10,5 @@
         <module name="nursenotes-commons-pojo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.9">
-      <module name="nursenotes-commons-parent" target="1.5" />
-      <module name="nursenotes-commons-path" target="1.5" />
-      <module name="nursenotes-commons-pojo" target="8" />
-      <module name="nursenotes-shared-parent" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
