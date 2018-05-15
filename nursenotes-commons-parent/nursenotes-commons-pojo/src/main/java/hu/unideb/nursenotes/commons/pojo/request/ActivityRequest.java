@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.util.List;
 
 /**
  * Lombok for constructors.
@@ -20,23 +21,20 @@ import java.time.LocalDate;
  */
 public class ActivityRequest implements Serializable {
 
+    private Integer travelTime;
+
     /**
-     * Spent time at a client.
+     * Spent time at a Client.
      */
     private String timeSpent;
 
     /**
-     * Type of activity.
+     * Type of Activity at a Client.
      */
-    private String type;
+    private List<String> type;
 
     /**
-     * Time spent on traveling.
-     */
-    private LocalDate travelTime;
-
-    /**
-     * Date of activity.
+     * Date of Activity.
      */
     private LocalDate date;
 

@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Violation exception class.
  */
-public final class ViolationException extends BaseException {
+public class ViolationException extends BaseException {
 
     /**
      * List of errors.
@@ -20,7 +20,7 @@ public final class ViolationException extends BaseException {
      *
      * @param violationList is the list of violations.
      */
-    public ViolationException(final List<Violation> violationList) {
+    public ViolationException(List<Violation> violationList) {
         this.errors = violationList;
     }
 
