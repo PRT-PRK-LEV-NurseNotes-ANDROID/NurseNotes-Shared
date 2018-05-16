@@ -8,21 +8,42 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 import java.time.LocalDate;
 
+/**
+ * User details response class.
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 public class UserDetailsResponse implements Serializable {
 
+    /**
+     * Employee ID.
+     */
     private Long id;
 
+    /**
+     * Employee username.
+     */
     private String username;
 
+    /**
+     * Employee email.
+     */
     private String email;
 
+    /**
+     * Employee first name.
+     */
     private String firstName;
 
+    /**
+     * Employee last name.
+     */
     private String lastName;
 
+    /**
+     * Date of creation.
+     */
     private LocalDate createdDate;
 }

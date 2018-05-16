@@ -42,9 +42,4 @@ public class RegistrationRequest implements Serializable {
      */
     private String lastName;
 
-    /**
-     * User created date.
-     */
-    private LocalDate createdDate;
-
 }

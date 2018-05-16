@@ -14,6 +14,7 @@ public class BaseException extends Exception {
 
     /**
      * Base exception single element constructor.
+     *
      * @param message the exception message.
      */
     public BaseException(final String message) {
@@ -24,7 +25,7 @@ public class BaseException extends Exception {
      * Bsse exception two element constructor.
      *
      * @param message the exception message.
-     * @param cause the exception cause.
+     * @param cause   the exception cause.
      */
     public BaseException(final String message, final Throwable cause) {
         super(message, cause);
@@ -42,13 +43,13 @@ public class BaseException extends Exception {
     /**
      * All arguments constructor.
      *
-     * @param message the exception message.
-     * @param cause the exception cause.
-     * @param enableSuppression enables Supression.
+     * @param message            the exception message.
+     * @param cause              the exception cause.
+     * @param enableSuppression  enables Supression.
      * @param writableStackTrace writable StackTrace.
      */
     protected BaseException(final String message, final Throwable cause,
-        final boolean enableSuppression, final boolean writableStackTrace) {
+                            final boolean enableSuppression, final boolean writableStackTrace) {
         super(message, cause, enableSuppression, writableStackTrace);
     }
 }

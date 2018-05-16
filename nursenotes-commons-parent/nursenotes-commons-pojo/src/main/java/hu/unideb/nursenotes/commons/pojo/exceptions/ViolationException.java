@@ -1,8 +1,6 @@
 package hu.unideb.nursenotes.commons.pojo.exceptions;
 
 import hu.unideb.nursenotes.commons.pojo.validator.Violation;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.util.List;
 
@@ -17,7 +15,6 @@ public class ViolationException extends BaseException {
     public List<Violation> errors;
 
     /**
-     *
      * @param violationList is the list of violations.
      */
     public ViolationException(List<Violation> violationList) {
@@ -25,7 +22,6 @@ public class ViolationException extends BaseException {
     }
 
     /**
-     *
      * @return Violation list.
      */
     public List<Violation> getViolationList() {

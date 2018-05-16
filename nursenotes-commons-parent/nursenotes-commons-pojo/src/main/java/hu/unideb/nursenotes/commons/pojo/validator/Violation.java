@@ -7,13 +7,27 @@ import java.io.Serializable;
  */
 public class Violation implements Serializable {
 
+    /**
+     * Validation field.
+     */
     private String field;
 
+    /**
+     * Validation messgage.
+     */
     private String validationMessage;
 
+    /**
+     * Empty constructor.
+     */
     public Violation() {
     }
 
+    /**
+     * Violation
+     * @param field of violation.
+     * @param validationMessage message of violation.
+     */
     public Violation(String field, String validationMessage) {
         this.field = field;
         this.validationMessage = validationMessage;
@@ -35,6 +49,10 @@ public class Violation implements Serializable {
         this.validationMessage = validationMessage;
     }
 
+    /**
+     * Violation builder.
+     * @return builder.
+     */
     public static ViolationBuilder builder() {
         return new ViolationBuilder();
     }
@@ -67,6 +85,10 @@ public class Violation implements Serializable {
             return this;
         }
 
+        /**
+         * Violation.
+         * @return violation.
+         */
         public Violation build() {
             Violation violation = new Violation();
             violation.setField(field);

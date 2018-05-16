@@ -137,11 +137,4 @@ public class ColumnName {
          */
         public static final String COLUMN_NAME_CLIENT_WAGE = "wage";
     }
-
-    @NoArgsConstructor(access = AccessLevel.PRIVATE)
-    public static final class ReferencedColumName {
-
-        public static final String REFERENCED_COLUM_NAME_ID = "id";
-
-    }
 }
